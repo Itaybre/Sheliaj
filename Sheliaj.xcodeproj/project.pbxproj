@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4EBD36E23F35589003954EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD36D23F35589003954EF /* AppDelegate.swift */; };
+		F4EBD37023F35589003954EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD36F23F35589003954EF /* ContentView.swift */; };
+		F4EBD37223F3558A003954EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EBD37123F3558A003954EF /* Assets.xcassets */; };
+		F4EBD37523F3558A003954EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EBD37423F3558A003954EF /* Preview Assets.xcassets */; };
+		F4EBD37823F3558A003954EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EBD37623F3558A003954EF /* Main.storyboard */; };
+		F4EBD38423F3558A003954EF /* SheliajTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD38323F3558A003954EF /* SheliajTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4EBD38023F3558A003954EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4EBD36223F35589003954EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4EBD36923F35589003954EF;
+			remoteInfo = Sheliaj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4EBD36A23F35589003954EF /* Sheliaj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sheliaj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EBD36D23F35589003954EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4EBD36F23F35589003954EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4EBD37123F3558A003954EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4EBD37423F3558A003954EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4EBD37723F3558A003954EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4EBD37923F3558A003954EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EBD37A23F3558A003954EF /* Sheliaj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sheliaj.entitlements; sourceTree = "<group>"; };
+		F4EBD37F23F3558A003954EF /* SheliajTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SheliajTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EBD38323F3558A003954EF /* SheliajTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheliajTests.swift; sourceTree = "<group>"; };
+		F4EBD38523F3558A003954EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4EBD36723F35589003954EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EBD37C23F3558A003954EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4EBD36123F35589003954EF = {
+			isa = PBXGroup;
+			children = (
+				F4EBD36C23F35589003954EF /* Sheliaj */,
+				F4EBD38223F3558A003954EF /* SheliajTests */,
+				F4EBD36B23F35589003954EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4EBD36B23F35589003954EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBD36A23F35589003954EF /* Sheliaj.app */,
+				F4EBD37F23F3558A003954EF /* SheliajTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4EBD36C23F35589003954EF /* Sheliaj */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBD36D23F35589003954EF /* AppDelegate.swift */,
+				F4EBD36F23F35589003954EF /* ContentView.swift */,
+				F4EBD37123F3558A003954EF /* Assets.xcassets */,
+				F4EBD37623F3558A003954EF /* Main.storyboard */,
+				F4EBD37923F3558A003954EF /* Info.plist */,
+				F4EBD37A23F3558A003954EF /* Sheliaj.entitlements */,
+				F4EBD37323F3558A003954EF /* Preview Content */,
+			);
+			path = Sheliaj;
+			sourceTree = "<group>";
+		};
+		F4EBD37323F3558A003954EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBD37423F3558A003954EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4EBD38223F3558A003954EF /* SheliajTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBD38323F3558A003954EF /* SheliajTests.swift */,
+				F4EBD38523F3558A003954EF /* Info.plist */,
+			);
+			path = SheliajTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4EBD36923F35589003954EF /* Sheliaj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EBD38823F3558A003954EF /* Build configuration list for PBXNativeTarget "Sheliaj" */;
+			buildPhases = (
+				F4EBD36623F35589003954EF /* Sources */,
+				F4EBD36723F35589003954EF /* Frameworks */,
+				F4EBD36823F35589003954EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sheliaj;
+			productName = Sheliaj;
+			productReference = F4EBD36A23F35589003954EF /* Sheliaj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4EBD37E23F3558A003954EF /* SheliajTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EBD38B23F3558A003954EF /* Build configuration list for PBXNativeTarget "SheliajTests" */;
+			buildPhases = (
+				F4EBD37B23F3558A003954EF /* Sources */,
+				F4EBD37C23F3558A003954EF /* Frameworks */,
+				F4EBD37D23F3558A003954EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4EBD38123F3558A003954EF /* PBXTargetDependency */,
+			);
+			name = SheliajTests;
+			productName = SheliajTests;
+			productReference = F4EBD37F23F3558A003954EF /* SheliajTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4EBD36223F35589003954EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Itay Brenner";
+				TargetAttributes = {
+					F4EBD36923F35589003954EF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F4EBD37E23F3558A003954EF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F4EBD36923F35589003954EF;
+					};
+				};
+			};
+			buildConfigurationList = F4EBD36523F35589003954EF /* Build configuration list for PBXProject "Sheliaj" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4EBD36123F35589003954EF;
+			productRefGroup = F4EBD36B23F35589003954EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4EBD36923F35589003954EF /* Sheliaj */,
+				F4EBD37E23F3558A003954EF /* SheliajTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4EBD36823F35589003954EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EBD37823F3558A003954EF /* Main.storyboard in Resources */,
+				F4EBD37523F3558A003954EF /* Preview Assets.xcassets in Resources */,
+				F4EBD37223F3558A003954EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EBD37D23F3558A003954EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4EBD36623F35589003954EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EBD37023F35589003954EF /* ContentView.swift in Sources */,
+				F4EBD36E23F35589003954EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EBD37B23F3558A003954EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EBD38423F3558A003954EF /* SheliajTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4EBD38123F3558A003954EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4EBD36923F35589003954EF /* Sheliaj */;
+			targetProxy = F4EBD38023F3558A003954EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4EBD37623F3558A003954EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4EBD37723F3558A003954EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4EBD38623F3558A003954EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4EBD38723F3558A003954EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F4EBD38923F3558A003954EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sheliaj/Sheliaj.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Sheliaj/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sheliaj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itaysoft.Sheliaj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F4EBD38A23F3558A003954EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sheliaj/Sheliaj.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Sheliaj/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sheliaj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itaysoft.Sheliaj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F4EBD38C23F3558A003954EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SheliajTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itaysoft.SheliajTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sheliaj.app/Contents/MacOS/Sheliaj";
+			};
+			name = Debug;
+		};
+		F4EBD38D23F3558A003954EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SheliajTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itaysoft.SheliajTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sheliaj.app/Contents/MacOS/Sheliaj";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4EBD36523F35589003954EF /* Build configuration list for PBXProject "Sheliaj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EBD38623F3558A003954EF /* Debug */,
+				F4EBD38723F3558A003954EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4EBD38823F3558A003954EF /* Build configuration list for PBXNativeTarget "Sheliaj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EBD38923F3558A003954EF /* Debug */,
+				F4EBD38A23F3558A003954EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4EBD38B23F3558A003954EF /* Build configuration list for PBXNativeTarget "SheliajTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EBD38C23F3558A003954EF /* Debug */,
+				F4EBD38D23F3558A003954EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4EBD36223F35589003954EF /* Project object */;
+}
