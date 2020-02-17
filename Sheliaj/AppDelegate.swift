@@ -8,16 +8,17 @@
 
 import Cocoa
 import SwiftUI
+import Resolver
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     var window: NSWindow!
 
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let presenter = PusherPresenterImp()
+        let contentView = PusherViewImp(presenter)
 
         // Create the window and set the content view. 
         window = NSWindow(
@@ -33,7 +34,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
-
 }
 
+extension Resolver: ResolverRegistering {
+    public static func registerAllServices() {
+        register { DevicesParser() }
+            .implements(Parser.self)
+
+        register { DevicesProvider() }
+            .implements(Provider.self)
+
+        register { PayloadPusher() }
+            .implements(PushSender.self)
+    }
+}

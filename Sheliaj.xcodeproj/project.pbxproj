@@ -3,16 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F416EBD423FA3AE80093F8BB /* PayloadPusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416EBD323FA3AE80093F8BB /* PayloadPusher.swift */; };
+		F416EBD623FA3DB10093F8BB /* PushSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416EBD523FA3DB10093F8BB /* PushSender.swift */; };
+		F416EBD823FACB0D0093F8BB /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416EBD723FACB0D0093F8BB /* TextView.swift */; };
+		F416EBDB23FAD1410093F8BB /* AdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416EBDA23FAD1410093F8BB /* AdvancedView.swift */; };
+		F416EBDD23FAD1600093F8BB /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416EBDC23FAD1600093F8BB /* SimpleView.swift */; };
+		F454F89723FAE3ED00DC4757 /* PushModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454F89623FAE3ED00DC4757 /* PushModel.swift */; };
+		F454F89A23FAECDE00DC4757 /* PusherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454F89923FAECDE00DC4757 /* PusherPresenter.swift */; };
+		F454F89C23FAED3500DC4757 /* PusherPresenterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454F89B23FAED3500DC4757 /* PusherPresenterImp.swift */; };
+		F454F8A423FB14A600DC4757 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = F454F8A323FB14A600DC4757 /* Resolver */; };
+		F45F116823FB1EE5002215EC /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD3AF23FA110C003954EF /* Device.swift */; };
 		F4EBD36E23F35589003954EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD36D23F35589003954EF /* AppDelegate.swift */; };
-		F4EBD37023F35589003954EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD36F23F35589003954EF /* ContentView.swift */; };
+		F4EBD37023F35589003954EF /* PusherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD36F23F35589003954EF /* PusherView.swift */; };
 		F4EBD37223F3558A003954EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EBD37123F3558A003954EF /* Assets.xcassets */; };
 		F4EBD37523F3558A003954EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EBD37423F3558A003954EF /* Preview Assets.xcassets */; };
 		F4EBD37823F3558A003954EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EBD37623F3558A003954EF /* Main.storyboard */; };
 		F4EBD38423F3558A003954EF /* SheliajTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD38323F3558A003954EF /* SheliajTests.swift */; };
+		F4EBD3A623F9F7CD003954EF /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD3A523F9F7CD003954EF /* Payload.swift */; };
+		F4EBD3A923F9F9A8003954EF /* SPMUtility in Frameworks */ = {isa = PBXBuildFile; productRef = F4EBD3A823F9F9A8003954EF /* SPMUtility */; };
+		F4EBD3AB23FA005C003954EF /* DevicesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD3AA23FA005C003954EF /* DevicesProvider.swift */; };
+		F4EBD3AE23FA10FC003954EF /* DevicesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD3AD23FA10FC003954EF /* DevicesParser.swift */; };
+		F4EBD3B223FA1190003954EF /* Process+Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD3B123FA1190003954EF /* Process+Shell.swift */; };
+		F4EBD3B423FA140F003954EF /* AllDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD3B323FA140F003954EF /* AllDevices.swift */; };
+		F4EBD3B823FA1A1E003954EF /* SingleDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBD3B723FA1A1E003954EF /* SingleDevice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F416EBD323FA3AE80093F8BB /* PayloadPusher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayloadPusher.swift; sourceTree = "<group>"; };
+		F416EBD523FA3DB10093F8BB /* PushSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushSender.swift; sourceTree = "<group>"; };
+		F416EBD723FACB0D0093F8BB /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		F416EBDA23FAD1410093F8BB /* AdvancedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedView.swift; sourceTree = "<group>"; };
+		F416EBDC23FAD1600093F8BB /* SimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
+		F454F89623FAE3ED00DC4757 /* PushModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushModel.swift; sourceTree = "<group>"; };
+		F454F89923FAECDE00DC4757 /* PusherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PusherPresenter.swift; sourceTree = "<group>"; };
+		F454F89B23FAED3500DC4757 /* PusherPresenterImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PusherPresenterImp.swift; sourceTree = "<group>"; };
+		F454F89E23FB0B4B00DC4757 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		F4EBD36A23F35589003954EF /* Sheliaj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sheliaj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EBD36D23F35589003954EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4EBD36F23F35589003954EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4EBD36F23F35589003954EF /* PusherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PusherView.swift; sourceTree = "<group>"; };
 		F4EBD37123F3558A003954EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4EBD37423F3558A003954EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4EBD37723F3558A003954EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +63,13 @@
 		F4EBD37F23F3558A003954EF /* SheliajTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SheliajTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EBD38323F3558A003954EF /* SheliajTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheliajTests.swift; sourceTree = "<group>"; };
 		F4EBD38523F3558A003954EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EBD3A523F9F7CD003954EF /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		F4EBD3AA23FA005C003954EF /* DevicesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesProvider.swift; sourceTree = "<group>"; };
+		F4EBD3AD23FA10FC003954EF /* DevicesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesParser.swift; sourceTree = "<group>"; };
+		F4EBD3AF23FA110C003954EF /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		F4EBD3B123FA1190003954EF /* Process+Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Process+Shell.swift"; sourceTree = "<group>"; };
+		F4EBD3B323FA140F003954EF /* AllDevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDevices.swift; sourceTree = "<group>"; };
+		F4EBD3B723FA1A1E003954EF /* SingleDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDevice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F454F8A423FB14A600DC4757 /* Resolver in Frameworks */,
+				F4EBD3A923F9F9A8003954EF /* SPMUtility in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +92,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F416EBD223FA3A9D0093F8BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBD3B123FA1190003954EF /* Process+Shell.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F416EBD923FAD12C0093F8BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBD36F23F35589003954EF /* PusherView.swift */,
+				F416EBD723FACB0D0093F8BB /* TextView.swift */,
+				F416EBDA23FAD1410093F8BB /* AdvancedView.swift */,
+				F416EBDC23FAD1600093F8BB /* SimpleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F454F89523FAE3D000DC4757 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBD3B323FA140F003954EF /* AllDevices.swift */,
+				F4EBD3AF23FA110C003954EF /* Device.swift */,
+				F4EBD3B723FA1A1E003954EF /* SingleDevice.swift */,
+				F454F89623FAE3ED00DC4757 /* PushModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F454F89823FAECA400DC4757 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F454F89923FAECDE00DC4757 /* PusherPresenter.swift */,
+				F454F89B23FAED3500DC4757 /* PusherPresenterImp.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		F4EBD36123F35589003954EF = {
 			isa = PBXGroup;
 			children = (
+				F454F89E23FB0B4B00DC4757 /* .swiftlint.yml */,
 				F4EBD36C23F35589003954EF /* Sheliaj */,
 				F4EBD38223F3558A003954EF /* SheliajTests */,
 				F4EBD36B23F35589003954EF /* Products */,
@@ -78,8 +153,13 @@
 		F4EBD36C23F35589003954EF /* Sheliaj */ = {
 			isa = PBXGroup;
 			children = (
+				F416EBD223FA3A9D0093F8BB /* Extensions */,
+				F4EBD3AC23FA10D9003954EF /* Devices */,
+				F4EBD3A423F9F7B9003954EF /* Payload */,
+				F454F89523FAE3D000DC4757 /* Models */,
+				F416EBD923FAD12C0093F8BB /* Views */,
+				F454F89823FAECA400DC4757 /* Presenter */,
 				F4EBD36D23F35589003954EF /* AppDelegate.swift */,
-				F4EBD36F23F35589003954EF /* ContentView.swift */,
 				F4EBD37123F3558A003954EF /* Assets.xcassets */,
 				F4EBD37623F3558A003954EF /* Main.storyboard */,
 				F4EBD37923F3558A003954EF /* Info.plist */,
@@ -106,6 +186,25 @@
 			path = SheliajTests;
 			sourceTree = "<group>";
 		};
+		F4EBD3A423F9F7B9003954EF /* Payload */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBD3A523F9F7CD003954EF /* Payload.swift */,
+				F416EBD323FA3AE80093F8BB /* PayloadPusher.swift */,
+				F416EBD523FA3DB10093F8BB /* PushSender.swift */,
+			);
+			path = Payload;
+			sourceTree = "<group>";
+		};
+		F4EBD3AC23FA10D9003954EF /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBD3AA23FA005C003954EF /* DevicesProvider.swift */,
+				F4EBD3AD23FA10FC003954EF /* DevicesParser.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,12 +215,17 @@
 				F4EBD36623F35589003954EF /* Sources */,
 				F4EBD36723F35589003954EF /* Frameworks */,
 				F4EBD36823F35589003954EF /* Resources */,
+				F454F89D23FB0A7100DC4757 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Sheliaj;
+			packageProductDependencies = (
+				F4EBD3A823F9F9A8003954EF /* SPMUtility */,
+				F454F8A323FB14A600DC4757 /* Resolver */,
+			);
 			productName = Sheliaj;
 			productReference = F4EBD36A23F35589003954EF /* Sheliaj.app */;
 			productType = "com.apple.product-type.application";
@@ -172,6 +276,10 @@
 				Base,
 			);
 			mainGroup = F4EBD36123F35589003954EF;
+			packageReferences = (
+				F4EBD3A723F9F9A8003954EF /* XCRemoteSwiftPackageReference "swift-package-manager" */,
+				F454F8A223FB14A600DC4757 /* XCRemoteSwiftPackageReference "Resolver" */,
+			);
 			productRefGroup = F4EBD36B23F35589003954EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -202,13 +310,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F454F89D23FB0A7100DC4757 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4EBD36623F35589003954EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4EBD37023F35589003954EF /* ContentView.swift in Sources */,
+				F4EBD3A623F9F7CD003954EF /* Payload.swift in Sources */,
+				F416EBD623FA3DB10093F8BB /* PushSender.swift in Sources */,
+				F454F89C23FAED3500DC4757 /* PusherPresenterImp.swift in Sources */,
+				F45F116823FB1EE5002215EC /* Device.swift in Sources */,
+				F4EBD37023F35589003954EF /* PusherView.swift in Sources */,
+				F4EBD3B223FA1190003954EF /* Process+Shell.swift in Sources */,
+				F416EBD423FA3AE80093F8BB /* PayloadPusher.swift in Sources */,
+				F454F89723FAE3ED00DC4757 /* PushModel.swift in Sources */,
+				F4EBD3AB23FA005C003954EF /* DevicesProvider.swift in Sources */,
+				F416EBDD23FAD1600093F8BB /* SimpleView.swift in Sources */,
 				F4EBD36E23F35589003954EF /* AppDelegate.swift in Sources */,
+				F4EBD3AE23FA10FC003954EF /* DevicesParser.swift in Sources */,
+				F416EBD823FACB0D0093F8BB /* TextView.swift in Sources */,
+				F416EBDB23FAD1410093F8BB /* AdvancedView.swift in Sources */,
+				F4EBD3B423FA140F003954EF /* AllDevices.swift in Sources */,
+				F4EBD3B823FA1A1E003954EF /* SingleDevice.swift in Sources */,
+				F454F89A23FAECDE00DC4757 /* PusherPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +506,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Sheliaj/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Sheliaj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,6 +528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Sheliaj/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Sheliaj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,6 +615,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F454F8A223FB14A600DC4757 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.2;
+			};
+		};
+		F4EBD3A723F9F9A8003954EF /* XCRemoteSwiftPackageReference "swift-package-manager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-package-manager.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F454F8A323FB14A600DC4757 /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F454F8A223FB14A600DC4757 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+		F4EBD3A823F9F9A8003954EF /* SPMUtility */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4EBD3A723F9F9A8003954EF /* XCRemoteSwiftPackageReference "swift-package-manager" */;
+			productName = SPMUtility;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4EBD36223F35589003954EF /* Project object */;
 }
